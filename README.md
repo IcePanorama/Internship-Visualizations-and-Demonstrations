@@ -22,7 +22,7 @@ This program was written using the `numpy`, `pandas`, and `scikit-learn` librari
 
 ## Membership Inference Attack
 
-**`MembershipInferenceAttack.py` is currently a WIP**
+`MembershipInferenceAttack.py` **is currently a WIP**
 
 A membership inference attack (MIA) is a machine learning exploit which uses machine learning model output probabilities to infer whether or not someone’s data was used in the creation of a machine learning model.
 
