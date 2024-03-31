@@ -2,13 +2,13 @@
 
 This repository is a collection of some of the programs that I've written over the course of my internship at the Department of Homeland Security's Center for Accelerating Opperational Effeciency. All of the following programs were entirely programmed by myself.
 
-## AccuracyPerEpsilonValue.py
+## Accuracy At Varying ε
 
 `AccuracyPerEpsilonValue.py` demonstrates how a tighter privacy budget (i.e., a lower epsilon value) in a differentially private logistic regresion model results in a lower accuracy than similar models with less strict or even no privacy applied at all.
 
 This program was written using the `numpy`, `pandas`, `scikit-learn`, and `matplotlib` libraries.
 
-## MIA_Simulation.py
+## Dummy Membership Inference Attack
 
 `MIA_Simulation.py` simulates a membership inference attack (MIA), which exploits machine learning model output probabilities to infer whether or not someone’s data was used in the creation of a machine learning model, on a logistic regression model and calculates the attack accuracy.
 
@@ -20,8 +20,8 @@ The model works as follows: first a regular logistic regression model is trained
 
 This program was written using the `numpy`, `pandas`, and `scikit-learn` libraries.
 
-## Visualizations.py
+## Visualizations Generator
 
-`Visualizations.py` generates various assets which I then used in GIMP, a photo editing software, to create preliminary visualizations for our team's research.
+`Visualizations.py` generated various assets which I then used in GIMP, a photo editing software, to create preliminary visualizations for our team's research.
 
 This program was written using the `numpy` and `matplotlib` libraries.
