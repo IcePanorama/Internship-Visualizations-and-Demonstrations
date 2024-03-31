@@ -20,6 +20,17 @@ The model works as follows: first a regular logistic regression model is trained
 
 This program was written using the `numpy`, `pandas`, and `scikit-learn` libraries.
 
+## Membership Inference Attack
+
+**`MembershipInferenceAttack.py` is currently a WIP**
+
+A membership inference attack (MIA) is a machine learning exploit which uses machine learning model output probabilities to infer whether or not someone’s data was used in the creation of a machine learning model.
+
+As part of my ongoing internship, I have begun work on a proper membership inference attack in Python. Unlike [Dummy Membership Inference Attack](#dummy-membership-attack), this program will usual actual synthetic data as part of it's attack on a model.
+
+This program was written using `PyTorch` along with the `numpy`, `pandas`, and `scikit-learn` libraries.
+
+
 ## Visualizations Generator
 
 `Visualizations.py` generated various assets which I then used in GIMP, a photo editing software, to create preliminary visualizations for our team's research.
