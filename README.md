@@ -22,11 +22,9 @@ This program was written using the `numpy`, `pandas`, and `scikit-learn` librari
 
 ## Membership Inference Attack
 
-`MembershipInferenceAttack.py` **is currently a WIP**
-
 A [membership inference attack (MIA)](https://arxiv.org/abs/1610.05820) is a machine learning exploit which uses machine learning model output probabilities to infer whether or not someone’s data was used in the creation of a machine learning model.
 
-As part of my ongoing internship, I have begun work on a proper membership inference attack in Python. Unlike [Dummy Membership Inference Attack](#dummy-membership-attack), this program will usual actual synthetic data as part of it's attack on a model.
+Unlike [Dummy Membership Inference Attack](#dummy-membership-attack), this program will usual actual synthetic data (created with a generative adversarial network) as part of it's attack on a model.
 
 This program was written using `PyTorch` along with the `numpy`, `pandas`, and `scikit-learn` libraries.
 
