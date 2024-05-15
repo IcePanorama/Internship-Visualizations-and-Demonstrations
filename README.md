@@ -24,7 +24,7 @@ This program was written using the `numpy`, `pandas`, and `scikit-learn` librari
 
 A [membership inference attack (MIA)](https://arxiv.org/abs/1610.05820) exploits machine learning (ML) model output probabilities to infer whether or not someone’s data was used in the creation of said ML model.
 
-This program creates two different MIA, one which works as if an attacker had access to just a single row of the original dataset and another which works as if an attacker had access to a small subset of the original dataset. Unlike [Dummy Membership Inference Attack](#dummy-membership-attack), this program uses synthetic data (created using a generative adversarial network) as part of its attack on a model. Both shadow models are then tested against the entire original dataset to measure their accuracy.
+This program creates two different MIAs, one which works as if an attacker had access to just a single row of the original dataset and another which works as if an attacker had access to a small subset of the original dataset. Unlike [Dummy Membership Inference Attack](#dummy-membership-attack), this program uses synthetic data (created using a generative adversarial network) as part of its attack on a model. Both shadow models are then tested against the entire original dataset to measure their accuracy.
 
 This program was written using `PyTorch` along with the `numpy`, `pandas`, and `scikit-learn` libraries.
 
